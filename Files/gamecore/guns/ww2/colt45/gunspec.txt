@@ -1,0 +1,60 @@
+;colt45 weapon spec
+
+;GUN Model File Requirements
+
+;GUN Settings
+
+muzzleflash    = 4
+muzzlesize     = 35
+brass          = 1
+smoke          = 1
+second         = 1
+damage         = 25
+damagetype     = 1
+scorchtype     = 0
+reloadqty      = 6
+iterate        = 0
+accuracy       = 2
+
+;GUN Visuals
+
+textured      = gun_D2.tga
+effect        = effectbank\BumpCubeReflectAlpha\BumpCubeReflectAlpha.fx
+transparency  = 2
+weapontype    = 1
+
+;GUN Sounds
+
+sound1	       = fire.wav
+sound2	       = reload.wav
+sound3         = dryfire.wav
+sound4         = cock.wav
+sound5         =
+fireloop       = 0
+
+;HUD muzzleflash position
+
+horiz          = 0
+vert           = 0
+forward        = -4
+alignx         = 5
+aligny         = -3
+alignz         = 20
+
+;HUD animation frames list
+
+keyframe ratio = 1
+select         = 0,9
+Idle           = 10,38
+Move           = 39,53
+fire           = 54,63
+reload         = 64,88
+cock	       = 89,101
+putaway	       = 102,111
+
+;HUD sound frames list
+
+soundframes    = 3
+sframe0        = 54,1
+sframe1        = 64,2
+sframe2        = 91,4
